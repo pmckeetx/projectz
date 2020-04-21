@@ -15,3 +15,4 @@ RUN npm ci
 COPY . /code
 
 CMD [ "node", "src/server.js" ]
+
